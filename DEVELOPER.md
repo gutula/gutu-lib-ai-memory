@@ -35,6 +35,7 @@ Provides reusable memory and retrieval-oriented helpers that other AI runtimes c
 | Package ID | `ai-memory` |
 | Display Name | AI Memory |
 | Import Name | `@platform/ai-memory` |
+| Canonical Namespace Target | `@gutu/ai-memory` |
 | Version | `0.1.0` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
@@ -48,6 +49,7 @@ Provides reusable memory and retrieval-oriented helpers that other AI runtimes c
 | Dev Dependencies | None |
 | React Runtime | No |
 | Workspace Scoped | Yes |
+| Legacy Compatibility IDs | `@platform/ai-memory` |
 
 ### Dependency interpretation
 

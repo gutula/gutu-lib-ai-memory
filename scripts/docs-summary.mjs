@@ -3,6 +3,7 @@ const summary = {
   "repoName": "gutu-lib-ai-memory",
   "packageId": "ai-memory",
   "displayName": "AI Memory",
+  "packageCount": 1,
   "group": "AI Foundation",
   "maturity": "Hardened",
   "description": "Tenant-safe memory collections, chunking, retrieval, and citation contracts.",

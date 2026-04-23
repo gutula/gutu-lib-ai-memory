@@ -45,6 +45,7 @@ Why this tier:
 | --- | --- |
 | Package ID | `ai-memory` |
 | Import Name | `@platform/ai-memory` |
+| Canonical Namespace Target | `@gutu/ai-memory` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
 | Verification | Build+Typecheck+Lint+Test |
@@ -54,10 +55,18 @@ Why this tier:
 | Field | Value |
 | --- | --- |
 | Package Name | `@platform/ai-memory` |
+| Canonical Namespace Target | `@gutu/ai-memory` |
+| Legacy Compatibility IDs | `@platform/ai-memory` |
 | Direct Dependencies | `@platform/search` |
 | Peer Dependencies | None |
 | React Runtime | No |
 | Workspace Requirement | Compatible Gutu workspace required |
+
+## Namespace Policy
+
+- `@gutu/*` is the canonical public framework namespace for new work.
+- This repo currently publishes `@platform/ai-memory` as the legacy compatibility package id while the migration to `@gutu/ai-memory` is completed.
+- Catalog metadata carries the canonical target id so dashboards, docs, and future tooling can present one uniform Gutu namespace without breaking current consumers.
 
 ## Capability Matrix
 
